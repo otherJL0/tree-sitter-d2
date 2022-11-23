@@ -1,0 +1,70 @@
+============
+Basic Shapes
+============
+
+imAShape
+im_a_shape
+im a shape
+i'm a shape
+# notice that one-hyphen is not a connection
+# whereas, `a--shape` would be a connection
+a-shape
+
+---
+
+(source_file
+ (shape_expression
+  (shape))
+ (shape_expression
+  (shape))
+ (shape_expression
+  (shape))
+ (shape_expression
+  (shape))
+ (comment)
+ (comment)
+ (shape_expression
+  (shape))
+ )
+
+
+=======================================
+Multiple shape definitions on same line
+=======================================
+
+SQLite ; Cassandra
+
+---
+
+(source_file
+ (shape_expression
+  (shape) (shape))
+ )
+
+==================
+Shapes with labels
+==================
+
+pg: PostgreSQL
+
+---
+
+(source_file
+ (shape_expression
+  (shape) (label)
+ ))
+
+
+================
+Shape with field
+================
+
+Cloud: my cloud
+Cloud.shape: cloud
+
+---
+
+(source_file
+ (shape_expression (shape) (label) )
+ (shape_expression (shape) (field) (label) )
+ )

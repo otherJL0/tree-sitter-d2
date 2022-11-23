@@ -2,9 +2,11 @@
   "name": "tree-sitter-d2",
   "version": "1.0.0",
   "description": "Tree-sitter grammar for D2 language",
-  "main": "index.js",
+  "main": "bindings/node",
   "scripts": {
-    "test": "tree-sitter test"
+    "test": "tree-sitter test",
+    "parse": "tree-sitter parse",
+    "generate": "tree-sitter generate"
   },
   "repository": {
     "type": "git",
