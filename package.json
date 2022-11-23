@@ -1,0 +1,31 @@
+{
+  "name": "tree-sitter-d2",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for D2 language",
+  "main": "index.js",
+  "scripts": {
+    "test": "tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otherJL0/tree-sitter-d2.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "treesitter",
+    "d2",
+    "grammar"
+  ],
+  "author": "Jonathan Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otherJL0/tree-sitter-d2/issues"
+  },
+  "homepage": "https://github.com/otherJL0/tree-sitter-d2#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  }
+}
